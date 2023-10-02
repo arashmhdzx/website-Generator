@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 const Viewport = () => {
     const [x, setX] = useState(0)
@@ -9,9 +9,20 @@ const Viewport = () => {
     }
 
 
-    return ( 
-        <div className="viewport absolute top-[48px] left-[240px] right-[240px] bottom-0" style={styles}>
+    return (
+        <div className=" flex bg-[#fafafa] h-[100vh] top-0 w-full" > {/* left-[240px] right-[240px] top-[48px] viewport bottom-0 */}
+            <div className="  overflow-y-auto overflow-x-hidden ">
+                <div className="relative top-[55px] left-[-192px] z-10 viewport w-[1920px] min-h-[100px] overflow-x-hidden"> {/* left-[-180px] top-[-345px]  */}
+                    {/* add ref here to access html document for resize,show preview ,and DOM  */}
+                    <div className=" bg-slate-600">
+                        asssssssssssssssssss
+                        <div className="h-[1000px]">
 
+                        </div>
+
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

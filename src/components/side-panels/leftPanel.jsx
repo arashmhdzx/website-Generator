@@ -1,7 +1,7 @@
 
 const LeftPanel = () => {
     return (
-        <div className="absolute text-white top-12 bottom-0 left-0 text-xs bg-bs-main-color border-r " style={{ width: "240px" }}>
+        <div className="absolute text-white top-12 sidebar-h bottom-0 left-0 text-xs bg-bs-main-color border-r " style={{ width: "240px" }}>
             <div className="flex flex-col sidebar-max-h">
                 <div className="flex flex-col max-h-[202px] min-h-[40px] border-b ">
                     <div className="flex py-2 w-full items-center border-b ">

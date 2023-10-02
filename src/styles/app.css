@@ -1,0 +1,9 @@
+.viewport{
+    overflow-y: auto;
+    transform: scale(0.5);
+    z-index: -1;
+}
+
+.sidebar-h{
+    height: calc(100vh - 48px);
+}
